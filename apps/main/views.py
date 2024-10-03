@@ -56,7 +56,7 @@ class StatisticsView(generics.GenericAPIView):
             'balance': total_income - total_expense
         }
 
-        return Response(statistics, status=200)
+        return Response(statistics, status=status.HTTP_200_OK)
 
 
 class CategoryListCreateView(generics.ListCreateAPIView):
