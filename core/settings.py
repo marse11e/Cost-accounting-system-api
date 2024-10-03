@@ -58,7 +58,7 @@ REST_FRAMEWORK = {
 }
 
 DJOSER = {
-    'LOGIN_FIELD': 'marselle.naz@yandex.kz',
+    'LOGIN_FIELD': 'username',
     'TOKEN_MODEL': 'rest_framework_simplejwt.token_blacklist.models.BlacklistedToken',
 }
 
