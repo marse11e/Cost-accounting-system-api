@@ -11,7 +11,7 @@ schema_view = get_schema_view(
         description="Документация к API для отслеживания личных финансов.",
         terms_of_service="https://www.google.com/policies/terms/",
         contact=openapi.Contact(name="Marselle Naz", url="https://t.me/MarselleNaz",email="marselle.naz@yandex.kz"),
-        license=openapi.License(name="BSD License"),
+        license=openapi.License(name="MIT License"),
     ),
     public=True,
     permission_classes=(permissions.AllowAny,),
